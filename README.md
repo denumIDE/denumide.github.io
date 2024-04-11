@@ -1,1 +1,2 @@
-Licensed under the mit license. wip readme
+Basicly blockly
+Licensed under the mit license. 
