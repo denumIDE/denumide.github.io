@@ -1,3 +1,14 @@
+Blockly.Blocks['run'] = {
+  init: function() {
+    this.appendStatementInput("NAME")
+        .setCheck(null)
+        .appendField("Run");
+    this.setColour(210);
+ this.setTooltip("Runs the code.");
+ this.setHelpUrl("");
+  }
+};
+
 Blockly.Blocks['alert'] = {
   init: function() {
     this.appendDummyInput()
