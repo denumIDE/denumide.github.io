@@ -3,7 +3,7 @@ Blockly.Blocks['run'] = {
     this.appendStatementInput("NAME")
         .setCheck(null)
         .appendField("Run");
-    this.setColour(#fcba03);
+    this.setColour("#fcba03");
  this.setTooltip("Runs the code.");
  this.setHelpUrl("");
   }
