@@ -7,6 +7,5 @@ function start() {
   workspace = Blockly.inject('blocklyDiv', {
     toolbox: document.getElementById('toolbox-categories'),
     renderer: 'zelos',
-    Zelos: Theme,
   });
 }
