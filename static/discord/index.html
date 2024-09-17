@@ -419,7 +419,27 @@
         var code = Blockly.JavaScript.workspaceToCode(workspace);
         eval(code); // Evaluate generated code
       }
+	    
+      Blockly.Blocks['change_stage_bg'] = {
+        init: function() {
+          this.jsonInit({
+            "type": "change_stage_bg",
+            "message0": "change bg to %1",
+            "args0": [
+              {
+                "type": "input_value",
+                "name": "NAME",
+                "check": "String"
+              }
+            ],
+            "previousStatement": null,
+            "nextStatement": null,
+            "colour": 260,
+            "tooltip": "",
+            "helpUrl": ""
+          });
 
+	    
 Blockly.Blocks['db_start'] = {
   init: function() {
     this.appendDummyInput()
