@@ -1,13 +1,18 @@
-Blockly.Blocks['run'] = {
+Blockly.Blocks['when_play_clicked'] = {
   init: function() {
+    this.appendDummyInput()
+        .appendField("when ")
+        .appendField(new Blockly.FieldImage("https://static.vecteezy.com/system/resources/thumbnails/035/753/221/small_2x/video-play-button-icon-for-graphic-design-logo-web-site-social-media-mobile-app-ui-illustration-png.png", 15, 15, { alt: "*", flipRtl: "FALSE" }))
+        .appendField("clicked");
     this.appendStatementInput("NAME")
-        .setCheck(null)
-        .appendField("Run");
-    this.setColour(45);
- this.setTooltip("Runs the code.");
+        .setCheck(null);
+    this.setColour(65);
+ this.setTooltip("When the word \"play\" is clicked, many of your creations might happen.");
  this.setHelpUrl("");
   }
 };
+                    
+                    
 
 Blockly.Blocks['alert'] = {
   init: function() {
